@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index2.html">Home</a>
+    <form class="cadastro" action="index2.html" method="get">
+        <h1>CADASTRO</h1> 
+           
+        <div>
+            <label>EMAIL</label> 
+            <input type="email" id="email" placeholder="Digite seu e-mail">
+        </div>
+        <div> 
+            <label>TELEFONE</label> 
+            <input type="telefone" id="TELEFONE" placeholder="Digite seu telefone">
+        </div>   
+          
+        <div>
+            <label>NOME</label> 
+            <input type="nome" id="nome" placeholder="Digite seu nome"/>
+        </div> 
+
+        <div>    
+            <label>CPF</label>
+            <input type="text" id="CPF" placeholder="Digite seu CPF" maxlength="14" oninput="this.value = this.value.replace(/\D/g, '').replace(/(\d{3})(\d)/, '$1.$2').replace(/(\d{3})(\d)/, '$1.$2').replace(/(\d{3})(\d{1,2})$/, '$1-$2');"/>
+        </div>
+
+        <div>
+            <label>CIDADE</label>
+            <input type="cidade" id="cidade" placeholder="Digite sua cidade"/>
+        </div>
+
+        <div>
+            <label>ESTADO</label>
+            <input type="estado" id="estado" placeholder="Digite seu estado"/>
+        </div>
+
+        <div>
+            <label>CEP</label>
+            <input type="CEP" id="CEP" placeholder="Digite o seu CEP"/>
+        </div>
+
+        <div>
+            <label>RUA</label>
+            <input type="Rua" id="Rua" placeholder="Digite a sua Rua"/>
+        </div>
+
+        <div>
+            <label>INFORMAÇÔES COMPLEMENTARES</label>
+            <input type="informações" id="informações" placeholder="Caso tenha uma forma de localizar sua casa com mais facilidade digite aqui"/>
+        </div>
+       
+        <button>cadastrar</button>
+    </form>
+</body>
+</html>

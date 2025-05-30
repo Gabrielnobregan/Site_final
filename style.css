@@ -1,0 +1,107 @@
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f1e4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #8d6748;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .categoria {
+      margin-bottom: 30px;
+    }
+
+    .categoria h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      color: #5a3c28;
+    }
+
+    .produto {
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px dashed #aaa;
+    }
+
+    .produto h3 {
+      margin: 0;
+    }
+
+    .preco {
+      color: #4CAF50;
+      font-weight: bold;
+    }
+
+    .whatsapp-btn {
+      display: block;
+      width: 100%;
+      max-width: 300px;
+      margin: 30px auto;
+      padding: 15px;
+      background-color: #25D366;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+    .compra{
+        display: block;
+      width: 100%;
+      max-width: 300px;
+      margin: auto;
+      background-color: #25D366;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: large;
+    }
+   
+    .cadastro{
+      display: block;
+      width: 100%;
+      max-width: 300px;
+      margin: auto;
+      background-color: #25D366;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: large;
+    }
+    .login{
+      display: block;
+      width: 100%;
+     max-width: 20em;
+      margin: auto;
+      background-color: #25D366;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: large;
+    }
